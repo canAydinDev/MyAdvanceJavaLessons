@@ -44,6 +44,15 @@ public class MainTest {
         }else if (transactionType==TransactionType.OTHER) {
             System.out.println("other transaction");
         }
+
+        //note: enum yapiya has method'lar
+        System.out.println("enum name: "+transactionType.name());// enum ismini ekrana yazdim
+        System.out.println("enum coder value"+ transactionType.getTransactionCode());//numeric deger
+        System.out.println("enum ordinal : "+transactionType.ordinal()); //index number'i veriyor
+        //trick bilgi: yeni bir enum ekleme ihtimali ne kadar az olsa da vardir.
+        // bu yuzden enum'lari cagirirken .ordinal yerine .name kullanmak daha guvenlidir.
     }
+
+
 
 }
