@@ -33,6 +33,7 @@ public class GenericType<T> {
         GenericType<String> obj1=new GenericType<>();
         //Trick : Diamond icine sadece non-primitive type kullanabiliriz
         obj1.setType("Generic Types");
+        //
         //GenericType<String> obj2=new GenericType<>();
         //obj2.setType(65);  //String girmem gerekirken int data turu girince CTE verdi
 
