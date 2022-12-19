@@ -31,7 +31,7 @@ public class WaitNotify {
         thread2.start();
     }
 
-    //para ekme methodu
+    //para ekleme methodu
     public  void withdraw(int amount){
         synchronized (this){
             if (balance<=0|| balance<amount){
